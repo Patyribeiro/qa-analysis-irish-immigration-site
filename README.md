@@ -151,6 +151,7 @@ This issue may be caused by:
 
 This project demonstrates my ability to:
 
+
 - Identify real-world issues  
 - Perform structured QA analysis  
 - Document bugs professionally  
@@ -159,3 +160,5 @@ This project demonstrates my ability to:
 ---
 
 ## 📎 14. Project Structure
+
+qa-case-study-inis-immigration/ │ ├── README.md ├── test-cases.xlsx ├── bug-report.xlsx └── screenshots/ ├── desktop-1.png ├── desktop-2.png ├── mobile-1.png └── mobile-2.png
