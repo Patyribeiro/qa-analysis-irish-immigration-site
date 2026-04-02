@@ -1,5 +1,5 @@
 
-# 🧪 QA Case Study – Irish Immigration Portal (INIS)
+# 🧪 QA Case Study – Cross-Platform Issue in Irish Immigration Portal
 
 ## 📌 1. Introduction
 
