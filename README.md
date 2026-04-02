@@ -1,115 +1,136 @@
-# 🧪 QA Case Study – INIS Immigration Portal
 
-## 📌 1. Introduction | Introdução
+# 🧪 QA Case Study – Irish Immigration Portal (INIS)
 
-**EN:**
-This project presents a real-world QA case study based on the Irish Immigration Portal (INIS).  
-The objective was to identify inconsistencies between Desktop and Mobile platforms during the visa renewal process.
+## 📌 1. Introduction
 
-**PT:**
-Este projeto apresenta um estudo de caso real de QA baseado no portal de imigração da Irlanda (INIS).  
-O objetivo foi identificar inconsistências entre as plataformas Desktop e Mobile durante o processo de renovação de visto.
+This project presents a real-world QA case study based on my experience using the Irish Immigration Portal (INIS) during a visa renewal process.
+
+The goal was to identify inconsistencies in system behavior across different platforms (Desktop vs Mobile) and evaluate their impact on user experience.
 
 ---
 
-## 🎯 2. Objective | Objetivo
+## 🎯 2. Objective
 
-**EN:**
-- Validate system behavior across different devices
-- Identify inconsistencies in application status
-- Document bugs and propose improvements
-
-**PT:**
-- Validar o comportamento do sistema em diferentes dispositivos
-- Identificar inconsistências no status da aplicação
-- Documentar bugs e propor melhorias
+- Validate system consistency across devices  
+- Identify bugs affecting application status  
+- Document issues with a professional QA approach  
+- Propose improvements to enhance user experience  
 
 ---
 
-## 🌐 3. Scope | Escopo
+## 🌐 3. Scope
 
-**Tested features | Funcionalidades testadas:**
-- Login system
-- "My Forms" dashboard
-- Additional Information submission
-- Application status visualization
+The following features were tested:
+
+- User login  
+- "My Forms" dashboard  
+- Application submission flow  
+- Status visualization  
+- Cross-platform consistency (Desktop vs Mobile)  
 
 ---
 
-## 🧪 4. Test Environment | Ambiente de Teste
+## 🧪 4. Test Environment
 
 | Platform | Browser | Device |
 |----------|--------|--------|
 | Desktop  | Chrome | Windows |
-| Desktop  | Edge   | Windows |
 | Mobile   | Chrome | Android |
 
 ---
 
-## 🧾 5. Test Scenarios | Cenários de Teste
+## 🧾 5. Test Scenarios
 
 | ID | Scenario | Description |
 |----|---------|------------|
 | TC001 | Login | User logs into the system |
 | TC002 | View Forms | Access "My Forms" dashboard |
-| TC003 | Submit Documents | Upload and submit documents |
-| TC004 | Cross-platform Test | Compare Desktop vs Mobile behavior |
+| TC003 | Submit Application | Submit renewal form |
+| TC004 | Cross-platform | Compare Desktop vs Mobile behavior |
 
 ---
 
-## 🐞 6. Bug Report | Relatório de Bug
+## 🐞 6. Bug Report
 
 ### 🔴 Bug Title:
 Inconsistent application status between Desktop and Mobile
 
 ### 📍 Environment:
-- Desktop: Chrome (Windows)
-- Mobile: Chrome (Android)
+- Desktop: Chrome (Windows)  
+- Mobile: Chrome (Android)  
 
 ### 🔁 Steps to Reproduce:
-1. Log in to the INIS portal
-2. Navigate to "My Forms"
-3. Check application status
+1. Log in to the INIS portal  
+2. Navigate to "My Forms"  
+3. Check application status  
 
 ### ✅ Expected Result:
-The application status should be consistent across all devices
+The application status should be consistent across all devices.
 
 ### ❌ Actual Result:
-- Desktop shows: 0 forms submitted  
-- Mobile shows: Application submitted  
+- Desktop shows: No submitted forms  
+- Mobile shows: Application successfully submitted  
 
-### ⚠️ Severity:
-High
+---
+
+## 📸 7. Evidence (Screenshots)
+
+### 💻 Desktop View
+
+![Desktop Screenshot 1](screenshots/desktop-1.png)  
+![Desktop Screenshot 2](screenshots/desktop-2.png)  
+
+👉 Observation:  
+The system shows no submitted forms in the dashboard.
+
+---
+
+### 📱 Mobile View
+
+![Mobile Screenshot 1](screenshots/mobile-1.png)  
+![Mobile Screenshot 2](screenshots/mobile-2.png)  
+
+👉 Observation:  
+The system shows the application as submitted successfully.
+
+---
+
+## ⚠️ 8. Severity & Impact
+
+- **Severity:** High  
+- **Priority:** Critical  
 
 ### 🚨 Impact:
-- User confusion about submission status  
-- Risk of duplicate submissions  
-- Potential delays in visa processing  
+- Causes confusion about submission status  
+- May lead users to resubmit applications  
+- Risk of delays in visa processing  
+- Reduces user trust in the system  
 
 ---
 
-## 🧠 7. Analysis | Análise
+## 🧠 9. Analysis
 
-**EN:**
-The issue may be caused by synchronization failure between frontend and backend systems, or caching inconsistencies across devices.
+This issue may be caused by:
 
-**PT:**
-O problema pode ser causado por falha de sincronização entre frontend e backend, ou inconsistência de cache entre dispositivos.
-
----
-
-## 💡 8. Suggested Improvements | Sugestões de Melhoria
-
-- Ensure real-time synchronization across platforms  
-- Provide confirmation message after submission  
-- Send automatic confirmation email  
+- Data synchronization failure between frontend and backend  
+- Caching issues across different devices  
+- Inconsistent API response handling  
 
 ---
 
-## 📊 9. Results | Resultados
+## 💡 10. Suggested Improvements
+
+- Implement real-time synchronization across platforms  
+- Display confirmation message after submission  
+- Send automatic confirmation email to users  
+- Ensure consistent API responses across devices  
+
+---
+
+## 📊 11. Test Results
 
 | Test Case | Result |
-|----------|-------|
+|----------|--------|
 | TC001 | Pass |
 | TC002 | Fail |
 | TC003 | Pass |
@@ -117,32 +138,24 @@ O problema pode ser causado por falha de sincronização entre frontend e backen
 
 ---
 
-## 📚 10. Lessons Learned | Lições Aprendidas
+## 📚 12. Lessons Learned
 
-**EN:**
 - Cross-platform testing is essential  
-- Clear feedback improves user experience  
-- Real-world testing enhances QA skills  
-
-**PT:**
-- Testes multiplataforma são essenciais  
-- Feedback claro melhora a experiência do usuário  
-- Testes reais desenvolvem habilidades de QA  
+- Real-world testing improves QA skills  
+- Clear feedback is critical for user experience  
+- Small inconsistencies can have high impact  
 
 ---
 
-## 🚀 11. Conclusion | Conclusão
+## 🚀 13. Conclusion
 
-**EN:**
-This project demonstrates my ability to identify real-world issues, document bugs, and analyze their impact on users.
+This project demonstrates my ability to:
 
-**PT:**
-Este projeto demonstra minha capacidade de identificar problemas reais, documentar bugs e analisar seu impacto para o usuário.
+- Identify real-world issues  
+- Perform structured QA analysis  
+- Document bugs professionally  
+- Evaluate user impact  
 
 ---
 
-## 📎 12. Attachments | Anexos
-
-- Screenshots (in /screenshots folder)
-- Test results spreadsheet# qa-analysis-irish-immigration-site
-QA analysis of Irish Immigration website - usability, bugs and improvements
+## 📎 14. Project Structure
