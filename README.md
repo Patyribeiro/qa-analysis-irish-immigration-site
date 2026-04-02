@@ -155,10 +155,10 @@ This project demonstrates my ability to:
 - Identify real-world issues  
 - Perform structured QA analysis  
 - Document bugs professionally  
-- Evaluate user impact  
+- Evaluate user impact
+- 
 
 ---
 
 ## 📎 14. Project Structure
 
-qa-case-study-inis-immigration/ │ ├── README.md ├── test-cases.xlsx ├── bug-report.xlsx └── screenshots/ ├── desktop-1.png ├── desktop-2.png ├── mobile-1.png └── mobile-2.png
